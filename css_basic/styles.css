@@ -13,9 +13,22 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+    color: brown;
+   
+}
+article h1, h2, h3{
+    color: black;
+
+
 }
 
 aside{
     flex: 1;
     overflow-y: auto;
+    
+}
+aside p{
+    color: brown;
+    text-shadow: 10px;
+   text-decoration-line: line-through;
 }
