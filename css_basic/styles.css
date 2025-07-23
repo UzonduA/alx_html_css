@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: aquamarine;
 
 }
 
@@ -25,10 +26,12 @@ article h1, h2, h3{
 aside{
     flex: 1;
     overflow-y: auto;
+    background-color: beige;
     
 }
 aside p{
     color: brown;
     text-shadow: 10px;
-   text-decoration-line: line-through;
+    text-decoration-line: line-through;
+    background-color: antiquewhite;
 }
