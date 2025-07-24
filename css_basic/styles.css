@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: aquamarine;
+    
 
 }
 
@@ -9,6 +10,7 @@ main{
     display: flex;
     flex-direction: row;
     flex: auto;
+    border: 3px;
 }
 
 article{
