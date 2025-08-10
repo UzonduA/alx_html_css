@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background{
+    background: url(images/headphones_hero_1.jpg); 
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    font-family: source sans pro;
+    
+    
+  } 
+
+.container{
+  font-family: source sans pro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 180px;
+  padding-top: 20px;
+  padding-right: 180px;
+  
+}
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  
+    
+  }
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbav a:active {
+  color: #FF6565;
+}
+
+.hero-piece{
+  text-align: center;
+  color: white;
+  padding-top: 180px;
+  padding-left: 30px;
+}
+
+.hero-piece h1{
+  font-size: 32px;
+  font-weight: 700px;
+}
+
+.p{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn{
+    background-color: #FF6565;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    position: relative; top: 50px;
+    
+}
+
+.btn:hover{
+  opacity: 0.9;
+}
+
+/*.btn:hover:active{
+  add the bounce effect to your button
+}*/
+
+
+.hero-text{
+  font-family: source sans pro;
+  color: white;
+  max-width: 900px;
+  text-align: center;
+   line-height: 1.6;
+  font-size: 16px;
+ 
+  padding-left: 300px;
+  padding-top: 200px;
+
+  font-weight: regular;
+}
