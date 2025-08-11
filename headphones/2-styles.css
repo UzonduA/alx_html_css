@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: source sans pro;
+}
+.background{
+    background-image: url(images/headphones_hero_1.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: source sans pro;
+    
+    
+  } 
+
+.container{
+  font-family: source sans pro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 180px;
+  padding-top: 20px;
+  padding-right: 180px;
+  
+}
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  
+    
+  }
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbav a:active {
+  color: #FF6565;
+}
+
+.hero-piece{
+  text-align: center;
+  color: white;
+  padding-top: 218px;
+  padding-left: 0;
+}
+
+.hero-piece h1{
+  font-size: 32px;
+  font-weight: 700px;
+}
+
+.p{
+  font-weight: bold;
+  font-size: 16px;
+}
+.hero-text{
+  font-family: source sans pro;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: regular;
+  padding-top: 120px;
+  line-height: 25px;
+}
+
+.btn{
+    background-color: #FF6565;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 13px 25px 13px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    position: relative; top: 50px;
+    
+}
+
+.btn:hover{
+  opacity: 0.9;
+}
+
+/*.btn:hover:active{
+  add the bounce effect to your button
+}*/
+
+
+.what-we-do {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.what-we-do .intro h2 {
+  font-size: 32x;
+  font-weight: semibold;
+  color: #071629;
+  margin-bottom: 20px;
+}
+
+.what-we-do .intro p {
+  font-size: 16px;
+  font-family: source sans pro;
+  font-weight: regular;
+  line-height: 1.6;
+  color: #071629;
+  max-width: 750px;
+  margin: 0 auto 60px auto;
+}
+
+/* Icon row */
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 80px; 
+}
+
+.service {
+  flex: 1 1 0;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.icon {
+  font-size: 68px;
+  color: #f44336;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* Text below icons */
+.service h3 {
+  font-size: 18px;
+  font-weight: semibold;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 14px;
+  font-weight: regular;
+  color: #071629;
+  line-height: 1.4;
+}
+    
+/* Background section */
+.results-section {
+  background-image: url(images/headphones_hero_2.jpg);
+    height: 110vh;
+    background-position: cover;
+    font-family: source sans pro;
+    color: white;
+
+}
+
+
+
+/* Text center */
+.results-content {
+  padding-left: 0px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 220px;
+}
+
+.results-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.results-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 60px;
+  color: #dcdcdc;
+}
+
+/* Pentagon layout */
+.pentagons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-top: 65px;
+  padding-right: 65px;
+  gap: 70px;
+}
+
+/* Pentagon shape */
+.pentagon {
+  width: 150px;
+  height: 130px;
+  background: #FF6565;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.pentagon:hover {
+  transform: scale(1.05);
+}
+
+/* Text inside pentagon */
+.pentagon .percent {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.pentagon .label {
+  font-size: 14px;
+  font-weight: regular;
+  margin-top: 5px;
+}
+
+.results{
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+}
